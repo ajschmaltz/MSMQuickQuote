@@ -33,4 +33,9 @@ class HomeController extends Controller {
 		return view('quotes');
 	}
 
+  public function belts()
+  {
+    return view('belts');
+  }
+
 }

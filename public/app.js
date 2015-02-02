@@ -8,6 +8,12 @@ mm.filter("as", ['$parse', function($parse) {
         return $parse(path).assign(context, value);
     };
 }]);
+mm.controller('beltCtrl', ['$http', '$scope', function($http, $scope){
+    $http.get('belts.json')
+        .success(function(data){
+            $scope.belts = data;
+        });
+}]);
 mm.controller('matchCtrl', ['$http', '$scope', function($http, $scope){
     $scope.search = {};
     $scope.Sale = {};
