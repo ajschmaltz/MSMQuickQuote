@@ -22,24 +22,10 @@
     <div class="col-md-2">
       <form class="form">
         <div class="form-group form-group-sm">
-          <label>OEM</label>
-          <select class="form-control" ng-model="search.Width">
-            <option value="">Show All</option>
-            <option ng-repeat="belt in filteredBelts | unique: 'OEM'">[[ belt.OEM ]]</option>
-          </select>
-        </div>
-        <div class="form-group form-group-sm">
           <label>Length</label>
           <input placeholder="Min Length" type="number" ng-model="LENGTH.min" class="form-control" />
           -
           <input placeholder="Max Length" type="number" ng-model="LENGTH.max" class="form-control" />
-        </div>
-        <div class="form-group form-group-sm">
-          <label>Width</label>
-          <select class="form-control" ng-model="search.Width">
-            <option value="">Show All</option>
-            <option ng-repeat="belt in filteredBelts | unique: 'WIDTH'">[[ belt.WIDTH ]]</option>
-          </select>
         </div>
       </form>
     </div>
