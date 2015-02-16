@@ -33,12 +33,8 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-<<<<<<< HEAD
-					<li><a href="/">Quick Quote</a></li>
-          <li><a href="/">Belt Lookup</a></li>
-=======
-					<li><a href="/">Home</a></li>
->>>>>>> 009c2fbd2635ad23aff1338a21fcfc182c72cf87
+					<li><a href="/home">Quick Quote</a></li>
+          <li><a href="/belts">Belt Lookup</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -63,13 +59,10 @@
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
   <!-- AngularJS -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
   <!-- AngularJS Filters -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.2/angular-filter.min.js"></script>
   <script src="/app.js"></script>
-=======
->>>>>>> 009c2fbd2635ad23aff1338a21fcfc182c72cf87
 </body>
 </html>
