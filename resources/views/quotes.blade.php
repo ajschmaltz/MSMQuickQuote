@@ -158,7 +158,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <img src="http://mainstreetmower.com/logo.png" width="500px" />
+          <img ng-click="printMode = 0" src="http://mainstreetmower.com/logo.png" width="500px" />
           <h4>Custom Quote</h4>
         </div>
         <hr/>
